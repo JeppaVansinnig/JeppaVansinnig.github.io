@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family:"font";
+	src:url(Font.ttf);
+}
+@font-face
+{
+	font-family:"Fånt";
+	src:url(F%C3%A5nt.ttf);
+}
+
+body
+{
+	margin:0;
+}
+
+#Storbox
+{
+	background-color:#000;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+header
+{
+	background-color:#00bb89;
+	width:100%;
+	height:25%;
+}
+figure
+{
+	margin:auto;
+	text-align:center;
+}
+#Banner
+{
+	margin-left:9%;
+	margin-top:2%;
+}
+nav
+{
+	clear:both;
+	background-color:#006147;
+	width:100%;
+	height:7.5%;
+	font-family:"font";
+}
+ul
+{
+	text-align:center;
+	list-style:none;
+	margin:auto;
+}
+li
+{
+	float:left;
+	width:33%;
+	font-size:64px;
+}
+.menylink:link
+{
+	text-decoration:none;
+	color:#a5a5a5;
+}
+.menylink:visited
+{
+	text-decoration:none;
+	color:#a5a5a5;
+}
+.menylink:active
+{
+	text-decoration:none;
+}
+.menylink:hover
+{
+	text-decoration:none;
+	color:#dedede;
+}
+article
+{
+	background-color:#00bb89;
+	width:100%;
+	height:67.5%;
+}
+p
+{
+	margin:auto;
+	padding-top:1%;
+	font-size:58px;
+	text-align:center;
+	font-family:Fånt;
+}
+#länk:link
+{
+	text-decoration:underline;
+	color:#000;
+	font-family:"Times New Roman", Times, serif;
+}
+#länk:visited
+{
+	text-decoration:none;
+	color:#000;
+	font-family:"Times New Roman", Times, serif;
+}
+#länk:active
+{
+	text-decoration:none;
+	color:#000;
+	font-family:"Times New Roman", Times, serif;
+}
+#länk:hover
+{
+	text-decoration:none;
+	color:#000;
+	font-family:"Times New Roman", Times, serif;
+}
+#pokal
+{
+	float:left;
+}
+#pokal2
+{
+	float:right;
+}
+#logga
+{
+	float:left;
+	margin:0;
+	padding:0;
+}
+#Loggaarticle
+{
+	background-color:#2d2d2d;
+}
+#Headerid
+{
+	background-color:#2d2d2d;
+	color:#FFF;
+	margin:auto;
+	text-align:center;
+	font-size:60px;
+	padding-top:0.1%;
+	font-family:font;
+}
+#navid
+{
+	background-color:#000;
+}
+#plogga
+{
+	color:#FFF;
+}
+#lank:link
+{
+	text-decoration:underline;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+#aänk:visited
+{
+	text-decoration:none;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+#lank:active
+{
+	text-decoration:none;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+#lank:hover
+{
+	text-decoration:none;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+#giraff
+{
+	float:left;
+}
+#girafffärg
+{
+	background-color:#fadba5;
+}
+#giraffhimmel
+{
+	background-color:#9bdafd;
+}
+#giraffträd
+{
+	background-color:#537368;
+}
+#giraffh1
+{
+	color:#000;
+	font-family:Fånt;
+	color:#FFF;
+	margin:auto;
+	text-align:center;
+	font-size:120px;
+	padding-top:2%;
+}
+#bannerh1
+{
+	font-size:120px;
+	text-align:center;
+	font-family:"fånt";
+	margin:auto;
+	padding-top:2%;
+}
