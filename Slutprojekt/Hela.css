@@ -11,7 +11,7 @@
 	font-family:articlefont;
 	src:url(Sansation_Regular.ttf);
 }
-* 
+*
 {
 	margin:0;
 	padding:0;
@@ -22,7 +22,7 @@
 	height:150%;
 	width:100%;
 }
-header 
+header
 {
 	width:100%;
 	height:10%;
@@ -65,7 +65,7 @@ ul
 	height:100%;
 	width:25%;
 	float:left;
-	font-size:50px;
+	font-size:3vw;
 }
 .linkhover:link
 {
@@ -87,7 +87,7 @@ ul
 {
 	text-decoration:none;
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-	font-size:63px;
+	font-size:3.2vw;
 	cursor: pointer; cursor: hand;
 
 }
@@ -159,7 +159,7 @@ ul
 {
 	margin-left:7px;
 }
-.bilderna 
+.bilderna
 {
 	margin-top:50px;
 	border-radius: 25px;
@@ -208,7 +208,7 @@ ul
 /*.historyli:hover #dropdown
 {
 	height: 200px;
-	
+
 }
 #dropdown
 {
@@ -347,12 +347,16 @@ section{
   border-bottom-left-radius: 20px;
   background:url(tian.jpg);
   background-size: 120%;
-  
 }
-
-/*section:hover article{
+section:hover{
+	opacity: 0.7;
+}
+section:hover article{
   animation-play-state: paused;
-}*/
+}
+section:hover .pause{
+	display:block;
+}
 
 article{
   position: absolute;
@@ -360,37 +364,44 @@ article{
   width: 600px;
   height: 400px;
   border-box: box-sizing;
+	float:right;
 }
 
 article:nth-of-type(1){
   animation: slideIn 55s linear 5s infinite;
+	z-index: 1;
 }
 article:nth-of-type(2){
   animation: slideIn 55s linear 10s infinite;
+	z-index: 2;
 }
 article:nth-of-type(3){
   animation: slideIn 55s linear 15s infinite;
+	z-index: 3;
 }
 article:nth-of-type(4){
   animation: slideIn 55s linear 20s infinite;
+	z-index: 4;
 }
 article:nth-of-type(5){
   animation: slideIn 55s linear 25s infinite;
+	z-index: 5;
 }
 article:nth-of-type(6){
   animation: slideIn 55s linear 30s infinite;
+	z-index: 6;
 }
 article:nth-of-type(7){
   animation: slideIn 55s linear 35s infinite;
+	z-index: 7;
 }
 article:nth-of-type(8){
   animation: slideIn 55s linear 40s infinite;
+	z-index: 8;
 }
 article:nth-of-type(9){
   animation: slideIn 55s linear 45s infinite;
-}
-article:nth-of-type(10){
-  animation: slideIn 55s linear 50s infinite;
+	z-index: 9;
 }
 
 @keyframes slideIn{
@@ -399,4 +410,103 @@ article:nth-of-type(10){
   10% {left: 0;}
   11% {left: -600px;}
   100%{left: -600px;}
+}
+#CS
+{
+	Font-size:100px;
+	color:#FFF;
+}
+#CSp
+{
+	float:left;
+	font-size: 1.8vw;
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:20px;
+}
+#pauseknapp
+{
+	position: absolute;
+	width: 16%;
+	height:25%;
+	display: flex;
+	left: calc(50% - 7.5%);
+	top: calc(50% - 12.5%);
+	z-index: 9999999999;
+}
+.pause
+{
+	background-color:#FFF;
+	width:100%;
+	height:100%;
+	float:right;
+	display: inline-block;
+	margin:12px;
+	display: none;
+}
+#articleteam
+{
+	width:100%;
+	height:71.7%;
+	background-color:#000;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+.outer
+{
+	width: 16%;
+	height:90%;
+	float:left;
+	position: relative;
+	margin-top: -110px;
+}
+.namnen
+{
+	height:15%;
+	width:100%;
+	color:white;
+	text-align: center;
+	line-height: 300%;
+	font-size: 40px;
+	font-family:articlefont;
+}
+.rutor
+{
+	width:100%;
+	height:35%;
+	background-color:#c9c9c9;
+	border: 5px solid #FFF;
+	border-radius: 25px;
+	box-sizing: border-box;
+}
+.bilder
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	transform: scaleY(1);
+	transition: all 0.8s ease-in-out;
+}
+.rutor:hover {
+	animation: bild 0.8s;
+
+}
+@keyframes bild {
+	0%,100%{
+		transform: scaleY(1);
+	}
+	50%{
+		transform: scaleY(1.2);
+	}
+}
+.information
+{
+	width: 100%;
+	height: 50%;
+	color: white;
+	text-align: center;
+	margin-top: 15%;
+	font-size: 40px;
+	font-family:articlefont;
 }
