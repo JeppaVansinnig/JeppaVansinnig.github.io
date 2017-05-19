@@ -19,7 +19,7 @@
 #Storbox
 {
 	position:absolute;
-	height:150%;
+	height:110%;
 	width:100%;
 }
 header
@@ -32,7 +32,7 @@ header
 nav
 {
 	width:100%;
-	height:6%;
+	height:70px;
 	background-color:#f78f07;
 	border-top: 5px solid;
 	font-family:Csfont;
@@ -47,7 +47,7 @@ nav
 h1
 {
 	font-family:Csfont;
-	font-size:120px;
+	font-size:100px;
 	text-align:center;
 	padding-top:1%;
 	text-shadow: 2px 1px rgba(255,255,255,0.3);
@@ -61,11 +61,11 @@ ul
 }
 .startli
 {
-	line-height:75px;
+	line-height:70px;
 	height:100%;
 	width:25%;
 	float:left;
-	font-size:3vw;
+	font-size:2.2vw;
 }
 .linkhover:link
 {
@@ -86,8 +86,8 @@ ul
 .linkhover:hover
 {
 	text-decoration:none;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-	font-size:3.2vw;
+	text-shadow: -2px 0 #444, 0 2px #444, 2px 0 #444, 0 -2px #444;
+	font-size:2.5vw;
 	cursor: pointer; cursor: hand;
 
 }
@@ -107,19 +107,18 @@ ul
 }
 .text {
 	color: #f2f2f2;
-	font-size: 60px;
+	font-size: 35px;
 	padding: 8px 12px;
 	position: absolute;
-	bottom:8px;
+	bottom:-45px;
 	width: 100%;
 	text-align: center;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .prev:hover, .next:hover {
 	background-color: rgba(0,0,0,0.8);
 }
 .slideshow-container {
-	max-width: 1500px;
+	max-width: 1000px;
 	position: relative;
 	margin: auto;
 	margin-top:2%;
@@ -191,7 +190,7 @@ ul
 	display: block;
 	font-size:12px;
 	width:100%;
-	font-size:40px;
+	font-size:1.5vw;
 	box-sizing: border-box;
 	font-family:sans-serif;
 	color: white;
@@ -204,28 +203,6 @@ ul
 	display: flex;
 	justify-content: space-around;
 }
-
-/*.historyli:hover #dropdown
-{
-	height: 200px;
-
-}
-#dropdown
-{
-	transition: all 0.3s;
-	height: 0px;
-	width: 100%;
-	overflow:hidden;
-}
-
-#dropdown li
-{
-	height: 25%;
-	width: 100%;
-	display: block;
-	background-color: white;
-}
-*/
 .historyår:link
 {
 	text-decoration:none;
@@ -271,13 +248,11 @@ ul
 }
 p
 {
-	font-size:40px;
+	font-size:30px;
 	font-family:articlefont;
 	text-align:center;
 	float:left;
 	color:white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	opacity:1;
 }
 #bildbakom1
 {
@@ -322,10 +297,10 @@ p
 .gråbakgrund
 {
 	background-color:rgba(34, 34, 34, 0.7);
-	height:30%;
-	width:80%;
+	height:31%;
+	width:60%;
 	float:left;
-	margin-left:10%;
+	margin-left:20%;
 	margin-top:15%;
 	border-radius:35px;
 	border:solid #c9c9c9 5px;
@@ -334,7 +309,7 @@ p
 {
 	width:100%;
 	height:71.7%;
-	background-color:black;
+	background-color:#1e1e1e;
 }
 section{
   width: 600px;
@@ -413,16 +388,17 @@ article:nth-of-type(9){
 }
 #CS
 {
-	Font-size:100px;
+	Font-size:3vw;
 	color:#FFF;
 }
 #CSp
 {
 	float:left;
-	font-size: 1.8vw;
+	font-size: 1.2vw;
 	margin-left:20px;
 	margin-right:10px;
 	margin-top:20px;
+	width:65%;
 }
 #pauseknapp
 {
@@ -448,14 +424,14 @@ article:nth-of-type(9){
 {
 	width:100%;
 	height:71.7%;
-	background-color:#000;
+	background-color:#1e1e1e;
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
 }
 .outer
 {
-	width: 16%;
+	width: 13%;
 	height:90%;
 	float:left;
 	position: relative;
@@ -467,8 +443,8 @@ article:nth-of-type(9){
 	width:100%;
 	color:white;
 	text-align: center;
-	line-height: 300%;
-	font-size: 40px;
+	line-height: 350%;
+	font-size: 1.8vw;
 	font-family:articlefont;
 }
 .rutor
@@ -485,20 +461,6 @@ article:nth-of-type(9){
 	width: 100%;
 	height: 100%;
 	border-radius: 25px;
-	transform: scaleY(1);
-	transition: all 0.8s ease-in-out;
-}
-.rutor:hover {
-	animation: bild 0.8s;
-
-}
-@keyframes bild {
-	0%,100%{
-		transform: scaleY(1);
-	}
-	50%{
-		transform: scaleY(1.2);
-	}
 }
 .information
 {
@@ -507,6 +469,23 @@ article:nth-of-type(9){
 	color: white;
 	text-align: center;
 	margin-top: 15%;
-	font-size: 40px;
 	font-family:articlefont;
+}
+.information p
+{
+	font-size:1.2vw;
+}
+#check
+{
+	width:20%;
+	height:100%;
+	margin-left:20px;
+	background:black;
+}
+#check p
+{
+	font-family:articlefont;
+	font-size:1.25vw;
+	color:white;
+	line-height:500%;
 }
