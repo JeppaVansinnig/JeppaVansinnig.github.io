@@ -11,6 +11,10 @@
 	font-family:articlefont;
 	src:url(Sansation_Regular.ttf);
 }
+@font-face {
+	font-family:sansationbold;
+	src: url(Sansation-Bold.ttf);
+}
 *
 {
 	margin:0;
@@ -132,10 +136,10 @@ ul
 	top: 50%;
 	width: auto;
 	margin-top: -22px;
-	padding: 16px;
+	padding: 12px;
 	color: white;
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 30px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 }
@@ -192,7 +196,7 @@ ul
 	width:100%;
 	font-size:1.5vw;
 	box-sizing: border-box;
-	font-family:sans-serif;
+	font-family:sansationbold;
 	color: white;
 }
 #historyul
@@ -228,7 +232,7 @@ ul
 #articlehistory
 {
 	width:100%;
-	height:71.7%;
+	height:66.2%;
 	overflow:hidden;
 	position: relative;
 }
@@ -297,7 +301,7 @@ p
 .gråbakgrund
 {
 	background-color:rgba(34, 34, 34, 0.7);
-	height:31%;
+	height:32%;
 	width:60%;
 	float:left;
 	margin-left:20%;
@@ -445,7 +449,7 @@ article:nth-of-type(9){
 	text-align: center;
 	line-height: 350%;
 	font-size: 1.8vw;
-	font-family:articlefont;
+	font-family: sansationbold;
 }
 .rutor
 {
@@ -466,7 +470,6 @@ article:nth-of-type(9){
 {
 	width: 100%;
 	height: 50%;
-	color: white;
 	text-align: center;
 	margin-top: 15%;
 	font-family:articlefont;
@@ -477,15 +480,32 @@ article:nth-of-type(9){
 }
 #check
 {
-	width:20%;
+	width:98%;
 	height:100%;
 	margin-left:20px;
-	background:black;
 }
 #check p
 {
-	font-family:articlefont;
-	font-size:1.25vw;
-	color:white;
-	line-height:500%;
+	font-family:sansationbold;
+	font-size:2.8vw;
+	color:black;
+	line-height:250%;
+}
+#twitch
+{
+	width:15%;
+	height:60%;
+	margin: 20px 0px 0px 200px;
+}
+#twitter
+{
+	width: 8%;
+	height: 60%;
+	margin: 20px 0px 0px 100px;
+}
+#facebook
+{
+	width: 10%;
+	height: 64%;
+	margin: 20px 0px 0px 100px;
 }
