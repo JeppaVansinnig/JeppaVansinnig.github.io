@@ -592,6 +592,9 @@ article:nth-of-type(9){
 	  11% {left: -700px;}
 	  100%{left: -700px;}
 	}
+	#articleCS{
+		height:90%;
+	}
 }
 @media screen and (max-width: 800px){
 	#footerstart
