@@ -509,3 +509,104 @@ article:nth-of-type(9){
 	height: 64%;
 	margin: 20px 0px 0px 100px;
 }
+@media screen and (max-width: 1250px) {
+
+	#twitch
+	{
+		margin: 10px 0px 0px 150px;
+	}
+	#twitter
+	{
+		margin: 20px 0px 0px 50px;
+	}
+	#facebook
+	{
+		margin: 20px 0px 0px 50px;
+	}
+	#check p
+	{
+		line-height: 390%;
+	}
+	.startli
+	{
+		font-size: 2.4vw;
+	}
+	.slideshow-container
+	{
+		width:70%;
+		margin-top: 10%;
+	}
+	.text
+	{
+		bottom: -40px;
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 800px){
+	#footerstart
+	{
+		height:24%;
+	}
+	#check p{
+		font-size:6vw;
+		line-height: 200%;
+		margin: 20px 0px 0px 80px;
+	}
+	#twitch{
+		width: 15%;
+		height: 15%;
+		margin: 30px 0px 30px 80px;
+	}
+	#twitter{
+		width: 15%;
+		height: 15%;
+		margin: 30px 0px 30px 80px;
+	}
+	#facebook{
+		width: 15%;
+		height: 20%;
+		margin: 30px 0px 30px 80px;
+	}
+	.startli
+	{
+		font-size: 2.9vw;
+	}
+	.linkhover:hover{
+		font-size: 3.2vw;
+	}
+	h1{
+		font-size: 10vw;
+		line-height: 95px;
+	}
+	.prev {
+		font-size: 20px;
+		margin-top: 1px;
+	}
+	.next {
+		font-size: 20px;
+		margin-top: 1px;
+	}
+}
+@media screen and (max-width: 525px){
+	#footerstart{
+		height:20%;
+	}
+	#check p{
+		margin: 10px 0px 0px 50px;
+	}
+	#twitch{
+		margin: 20px 0px 30px 60px;
+	}
+	#twitter{
+		margin: 20px 0px 30px 60px;
+	}
+	#facebook{
+		margin: 20px 0px 30px 60px;
+	}
+	.text{
+		font-size: 20px;
+	}
+	.slideshow-container{
+		margin-top: 200px;
+	}
+}
