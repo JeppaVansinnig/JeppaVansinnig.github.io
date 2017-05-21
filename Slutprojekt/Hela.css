@@ -569,13 +569,14 @@ article:nth-of-type(9){
 	}
 	.startli
 	{
-		font-size: 2.9vw;
+		font-size: 3vw;
 	}
 	.linkhover:hover{
 		font-size: 3.2vw;
 	}
 	h1{
 		font-size: 10vw;
+		line-height: 120%;
 	}
 	.prev {
 		font-size: 20px;
@@ -584,6 +585,11 @@ article:nth-of-type(9){
 	.next {
 		font-size: 20px;
 		margin-top: 1px;
+	}
+	.text{
+		font-size: 20px;
+		width:110%;
+		padding:0;
 	}
 }
 @media screen and (max-width: 525px){
@@ -610,7 +616,9 @@ article:nth-of-type(9){
 		width: 20%;
 	}
 	.text{
-		font-size: 20px;
+		font-size: 16px;
+		width:110%;
+		padding:0;
 	}
 	.slideshow-container{
 		margin-top: 100px;
@@ -637,5 +645,10 @@ article:nth-of-type(9){
 	}
 	nav{
 		height:22%;
+	}
+}
+@media screen and (max-width: 400px){
+	#check p{
+		font-size: 7vw;
 	}
 }
