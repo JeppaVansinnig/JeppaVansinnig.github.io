@@ -509,6 +509,27 @@ article:nth-of-type(9){
 	height: 64%;
 	margin: 20px 0px 0px 100px;
 }
+@media screen and (max-width: 1830px){
+	#CSp {
+		width:60%;
+	}
+	section{
+		width:450px;
+		height:300px;
+	}
+	article{
+		left: 450px;
+	  width: 450px;
+	  height: 300px;
+	}
+	@keyframes slideIn{
+	  0% {left: 450px;}
+	  1% {left: 0;}
+	  10% {left: 0;}
+	  11% {left: -450px;}
+	  100%{left: -450px;}
+	}
+}
 @media screen and (max-width: 1250px) {
 
 	#twitch
@@ -541,6 +562,36 @@ article:nth-of-type(9){
 		bottom: -40px;
 		font-size: 30px;
 	}
+	#CSp{
+		width: 90%;
+		font-size: 2.5vw;
+		margin: 20px auto;
+		float: none;
+		height:40%;
+	}
+	h1{
+		line-height: 130%;
+	}
+	section{
+		width:700px;
+		height:400px;
+		margin: auto;
+		float: none;
+		border-right: 4px solid #FFF;
+		border-bottom-right-radius: 20px;
+	}
+	article{
+		left: 700px;
+	  width: 700px;
+	  height: 400px;
+	}
+	@keyframes slideIn{
+	  0% {left: 700px;}
+	  1% {left: 0;}
+	  10% {left: 0;}
+	  11% {left: -700px;}
+	  100%{left: -700px;}
+	}
 }
 @media screen and (max-width: 800px){
 	#footerstart
@@ -554,17 +605,17 @@ article:nth-of-type(9){
 	}
 	#twitch{
 		width: 15%;
-		height: 15%;
+		height: 20%;
 		margin: 30px 0px 30px 80px;
 	}
 	#twitter{
 		width: 15%;
-		height: 15%;
+		height: 25%;
 		margin: 30px 0px 30px 80px;
 	}
 	#facebook{
 		width: 15%;
-		height: 20%;
+		height: 30%;
 		margin: 30px 0px 30px 80px;
 	}
 	.startli
@@ -591,6 +642,28 @@ article:nth-of-type(9){
 		width:110%;
 		padding:0;
 	}
+	#CS{
+		font-size:7vw;
+	}
+	#CSp{
+		font-size: 2.3vw;
+	}
+	section{
+		width:500px;
+		height:280px;
+	}
+	article{
+		left: 500px;
+	  width: 500px;
+	  height: 280px;
+	}
+	@keyframes slideIn{
+	  0% {left: 500px;}
+	  1% {left: 0;}
+	  10% {left: 0;}
+	  11% {left: -500px;}
+	  100%{left: -500px;}
+	}
 }
 @media screen and (max-width: 525px){
 	#footerstart{
@@ -606,13 +679,13 @@ article:nth-of-type(9){
 		width: 20%;
 	}
 	#twitter{
-		margin: 10px 0px 0px 40px;
+		margin: 10px 0px 0px 30px;
 		height: 30%;
 		width: 20%;
 	}
 	#facebook{
-		margin: 10px 0px 0px 40px;
-		height: 30%;
+		margin: 10px 0px 0px 30px;
+		height: 36%;
 		width: 20%;
 	}
 	.text{
@@ -646,9 +719,55 @@ article:nth-of-type(9){
 	nav{
 		height:22%;
 	}
+	#CSp{
+		font-size: 3.1vw;
+	}
+}
+@media screen and (max-width: 450px){
+	#articleCS{
+		height:80%;
+	}
+	#CSp{
+		font-size:3vw;
+	}
+	section{
+		width:320px;
+		height:200px;
+	}
+	article{
+		left: 320px;
+	  width: 320px;
+	  height: 200px;
+	}
+	@keyframes slideIn{
+	  0% {left: 320px;}
+	  1% {left: 0;}
+	  10% {left: 0;}
+	  11% {left: -320px;}
+	  100%{left: -320px;}
+	}
 }
 @media screen and (max-width: 400px){
 	#check p{
 		font-size: 7vw;
+	}
+	section{
+		width:300px;
+		height:200px;
+	}
+	article{
+		left: 300px;
+	  width: 300px;
+	  height: 200px;
+	}
+	@keyframes slideIn{
+	  0% {left: 300px;}
+	  1% {left: 0;}
+	  10% {left: 0;}
+	  11% {left: -300px;}
+	  100%{left: -300px;}
+	}
+	#articleCS{
+		height:84%;
 	}
 }
