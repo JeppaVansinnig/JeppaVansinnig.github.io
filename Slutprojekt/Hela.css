@@ -211,7 +211,6 @@ ul
 {
 	text-decoration:none;
 	color:#FFF;
-	transition: 0.3s;
 }
 .historyår:visited
 {
@@ -301,8 +300,8 @@ p
 .gråbakgrund
 {
 	background-color:rgba(34, 34, 34, 0.7);
-	height:32%;
-	width:60%;
+	height:300px;
+	width:1100px;
 	float:left;
 	margin-left:20%;
 	margin-top:15%;
@@ -530,6 +529,19 @@ article:nth-of-type(9){
 	  11% {left: -450px;}
 	  100%{left: -450px;}
 	}
+	.startli{
+		font-size: 35px;
+	}
+	.linkhover:hover{
+		font-size: 37px;
+	}
+	.gråbakgrund{
+		width:900px;
+	}
+	.gråbakgrund p{
+		font-size: 28px;
+		margin: 8px 8px 0px 8px;
+	}
 }
 @media screen and (max-width: 1250px) {
 
@@ -555,10 +567,10 @@ article:nth-of-type(9){
 	}
 	.startli
 	{
-		font-size: 30px;
+		font-size: 28px;
 	}
 	.linkhover:hover{
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.slideshow-container
 	{
@@ -606,8 +618,26 @@ article:nth-of-type(9){
 	#articleCS{
 		height:1000px;
 	}
+	.historyår{
+		font-size: 19px;
+	}
+	.gråbakgrund{
+		width:750px;
+		margin-left: 9%;
+		margin-top:20%;
+	}
+	.gråbakgrund p{
+		font-size: 22px;
+		margin: 8px 8px 0px 8px;
+	}
 }
-@media screen and (max-width: 910px){
+@media screen and (max-width: 915px){
+	.startli{
+		font-size: 23px;
+	}
+	.linkhover:hover{
+		font-size: 25px;
+	}
 	#check p
 	{
 		line-height: 150px;
@@ -631,6 +661,18 @@ article:nth-of-type(9){
 		margin: 20px 0px 50px 100px;
 		width:100px;
 		height:80px;
+	}
+	.historyår{
+		font-size: 14px;
+	}
+	.gråbakgrund{
+		width:600px;
+		margin-left: 17%;
+		margin-top:30%;
+	}
+	.gråbakgrund p{
+		font-size:20px;
+		margin: 8px 8px 0px 8px;
 	}
 }
 @media screen and (max-width: 800px){
@@ -660,10 +702,10 @@ article:nth-of-type(9){
 	}
 	.startli
 	{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.linkhover:hover{
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.prev {
 		font-size: 20px;
@@ -709,8 +751,23 @@ article:nth-of-type(9){
 	h1{
 		font-size: 50px;
 	}
+	.gråbakgrund{
+		width:500px;
+		height:270px;
+		margin-left: 15%;
+		margin-top:40%;
+	}
+	.gråbakgrund p{
+		font-size: 18px;
+	}
+	.historyår:hover
+	{
+		cursor: pointer;
+		border: 2px white;
+		border-style: none solid;
+	}
 }
-@media screen and (max-width: 610px){
+@media screen and (max-width: 615px){
 	#check p{
 		font-size:35px;
 		line-height: 100px;
@@ -730,6 +787,44 @@ article:nth-of-type(9){
 		width: 90px;
 		height: 70px;
 		margin: 30px 0px 30px 60px;
+	}
+	.startli{
+		font-size: 15px;
+	}
+	.linkhover:hover{
+		font-size: 17px;
+	}
+	section{
+		width:350px;
+		height:250px;
+	}
+	article{
+		left: 350px;
+	  width: 350px;
+	  height: 250px;
+	}
+	@keyframes slideIn{
+	  0% {left: 350px;}
+	  1% {left: 0;}
+	  10% {left: 0;}
+	  11% {left: -350px;}
+	  100%{left: -350px;}
+	}
+	#pauseknapp
+	{
+		position: absolute;
+		width: 22%;
+		height: 22%;
+		left: calc(50% - 11%);
+		top: calc(50% - 11%);
+	}
+	.gråbakgrund{
+		width:400px;
+		height:240px;
+		margin-left: 14%;
+	}
+	.gråbakgrund p{
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 525px){
@@ -784,6 +879,15 @@ article:nth-of-type(9){
 	#CSp{
 		font-size: 16px;
 	}
+	.gråbakgrund{
+		width:300px;
+		height:340px;
+		margin-left: 13%;
+		margin-top:50%;
+	}
+	.gråbakgrund p{
+		font-size: 16px;
+	}
 }
 @media screen and (max-width: 450px){
 	#articleCS{
@@ -827,6 +931,15 @@ article:nth-of-type(9){
 		height: 50px;
 		width: 70px;
 	}
+	.gråbakgrund{
+		width:220px;
+		height:350px;
+		margin-left: 20%;
+		margin-top:50%;
+	}
+	.gråbakgrund p{
+		font-size: 14px;
+	}
 }
 @media screen and (max-width: 400px){
 	#check p{
@@ -850,6 +963,21 @@ article:nth-of-type(9){
 	}
 	#articleCS{
 		height:700px;
+	}
+	#CS{
+		font-size: 32px;
+	}
+	#CSp{
+		font-size:12px;
+	}
+	.gråbakgrund{
+		width:220px;
+		height:350px;
+		margin-left: 20%;
+		margin-top:50%;
+	}
+	.gråbakgrund p{
+		font-size: 14px;
 	}
 }
 @media screen and (max-width: 380px){
@@ -877,5 +1005,30 @@ article:nth-of-type(9){
 		margin: 0px 0px 0px 35px;
 		height: 40px;
 		width: 60px;
+	}
+	section{
+		width:240px;
+		height:160px;
+	}
+	article{
+		left: 240px;
+	  width: 240px;
+	  height: 160px;
+	}
+	@keyframes slideIn{
+	  0% {left: 240px;}
+	  1% {left: 0;}
+	  10% {left: 0;}
+	  11% {left: -240px;}
+	  100%{left: -240px;}
+	}
+	#articleCS{
+		height:700px;
+	}
+	#CS{
+		font-size: 26px;
+	}
+	#CSp{
+		font-size:12px;
 	}
 }
