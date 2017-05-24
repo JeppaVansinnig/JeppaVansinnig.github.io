@@ -167,7 +167,8 @@ ul
 {
 	margin-top:50px;
 	border-radius: 25px;
-    border: 7px solid #8e8e8e;
+    	border: 7px solid #8e8e8e;
+	width:100%;
 }
 #footerstart
 {
