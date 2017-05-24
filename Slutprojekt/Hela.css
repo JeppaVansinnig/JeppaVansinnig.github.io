@@ -92,7 +92,7 @@ ul
 	text-decoration:none;
 	text-shadow: -2px 0 #444, 0 2px #444, 2px 0 #444, 0 -2px #444;
 	font-size:45px;
-	cursor: pointer; cursor: hand;
+	cursor: pointer;
 
 }
 .fade {
@@ -346,8 +346,7 @@ article{
   left: 600px;
   width: 600px;
   height: 400px;
-  border-box: box-sizing;
-	float:right;
+  float:right;
 }
 
 article:nth-of-type(1){
