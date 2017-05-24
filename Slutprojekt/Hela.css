@@ -25,7 +25,6 @@
 	position:absolute;
 	height:110%;
 	width:100%;
-	background-color:black;
 }
 header
 {
@@ -53,8 +52,9 @@ h1
 {
 	font-family:Csfont;
 	font-size:100px;
-	text-align:center;
+	text-align:center; 
 	text-shadow: 2px 1px rgba(255,255,255,0.3);
+	line-height:60px;
 }
 ul
 {
@@ -431,6 +431,7 @@ article:nth-of-type(9){
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
+	color:#FFF;
 }
 .outer
 {
@@ -674,6 +675,35 @@ article:nth-of-type(9){
 		font-size:20px;
 		margin: 8px 8px 0px 8px;
 	}
+	#articleteam
+	{
+		display:block;
+	}
+	.outer
+	{
+		width: 33.333333%;
+		margin-top:-30px;
+		height:450px;
+	}
+	.namnen
+	{
+		height:80px;
+		font-size: 25px;
+	}
+	.rutor
+	{
+		width:70%;
+		margin-left:40px;
+	}
+	.information {
+		margin: 3px 0px 0px 0px;
+	}
+	.information p{
+		margin: 0px 50px 0px 45px;
+		font-size:14px;
+		text-align:center;
+	}
+		
 }
 @media screen and (max-width: 800px){
 	#footerstart
@@ -888,6 +918,33 @@ article:nth-of-type(9){
 	.gråbakgrund p{
 		font-size: 16px;
 	}
+	#articleteam{
+		height:2000px;
+	}
+	.outer
+	{
+		width: 100%;
+		margin-top:0px;
+		height:390px;
+		float:none;
+	}
+	.namnen
+	{
+		height:80px;
+		font-size: 15px;
+	}
+	.rutor
+	{
+		width:40%;
+		margin-left:29%;
+	}
+	.information {
+		margin: 10px 100px 0px 150px;
+	}
+	.information p{
+		margin: 0px 290px 0px 0px;
+		font-size:12px;
+	}
 }
 @media screen and (max-width: 450px){
 	#articleCS{
@@ -1030,5 +1087,33 @@ article:nth-of-type(9){
 	}
 	#CSp{
 		font-size:12px;
+	}
+	#articleteam{
+		height:1900px;
+	}
+	.outer
+	{
+		width: 100%;
+		margin-top:0px;
+		height:380px;
+		float:none;
+	}
+	.namnen
+	{
+		height:80px;
+		font-size: 13px;
+	}
+	.rutor
+	{
+		width:30%;
+		height:40%;
+		margin-left:35%;
+	}
+	.information {
+		margin: 10px 100px 0px 135px;
+	}
+	.information p{
+		margin: 0px 290px 0px 0px;
+		font-size:10px;
 	}
 }
